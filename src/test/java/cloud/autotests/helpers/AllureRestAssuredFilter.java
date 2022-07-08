@@ -1,4 +1,4 @@
-package cloud.autotests.helpers;
+/*package cloud.autotests.helpers;
 
 import io.qameta.allure.restassured.AllureRestAssured;
 
@@ -10,4 +10,4 @@ public class AllureRestAssuredFilter {
         FILTER.setResponseTemplate("response.ftl");
         return FILTER;
     }
-}
+}*/

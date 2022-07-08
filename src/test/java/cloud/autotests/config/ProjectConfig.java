@@ -6,7 +6,8 @@ import org.aeonbits.owner.Config;
 @Config.Sources({
         "system:properties",
         "classpath:config/local.properties",
-        "classpath:config/remote.properties"
+        "classpath:config/remote.properties",
+        "classpath:config/app.properties"
 })
 public interface ProjectConfig extends Config {
 
@@ -19,4 +20,6 @@ public interface ProjectConfig extends Config {
     String browserMobileView();
     String remoteDriverUrl();
     String videoStorage();
+    String userLogin();
+    String userPassword();
 }

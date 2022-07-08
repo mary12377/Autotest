@@ -4,27 +4,24 @@ import cloud.autotests.helpers.DriverUtils;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
+import  static cloud.autotests.helpers.Autorisation.auth;
 
 
-public class GeneratedTests extends TestBase {
-    
+public class DoramaLiveTests extends TestBase {
+
     @Test
     @Description("Soon to be implemented by you (or QA.GURU engineers)")
     @DisplayName("личный кабинет")
     void registrationTest() {
-       step("", () -> open("https://doramalive.ru/"));
-       step("войти в личный кабинет", () -> {
-          $(By.xpath("//*[@id=\"user_panel\"]/li[2]/a")).click();
-          $(".form-control.login").setValue("");
-          $("#passwordShow").setValue("");
-          $(".btn.btn-danger.btn-block").click();
-
+      auth(login,password);
+        step("проверяем что появилось имя личного кабинета", () -> {
+            $(".dropdown-toggle").shouldBe(visible);
         });
 }
     @Test
@@ -39,6 +36,9 @@ public class GeneratedTests extends TestBase {
             $$(".root-item").findBy(text("помочь сайту")).click();
             $(".fa.fa-child").click();
         });
+        step("проверяем что в меню есть названия", () -> {
+            $(".navbar-collapse.collapse").shouldHave(text("форум"), text("справка"), text("помочь сайту"));
+        });
     }
 
 
@@ -46,13 +46,7 @@ public class GeneratedTests extends TestBase {
     @Description("Soon to be implemented by you (or QA.GURU engineers)")
     @DisplayName("поиск фильма")
     void generatedTest() {
-        step("// открыть сайт", () -> {
-            open("https://doramalive.ru/");
-            $(By.xpath("//*[@id=\"user_panel\"]/li[2]/a")).click();
-            $(".form-control.login").setValue("");
-            $("#passwordShow").setValue("");
-            $(".btn.btn-danger.btn-block").click();
-        });
+        auth(login,password);
 
         step("поиск и добавления фильма в отложеные", () -> {
             $("#title-search").click();
@@ -60,7 +54,9 @@ public class GeneratedTests extends TestBase {
             $("#bookmark-533616").click();
             $$("#modal-bmark").findBy(text("отложено")).click();
         });
-
+        step("проверяем что название фильма совпадает с поиском", () -> {
+            $(".media-body").shouldHave(text("мы все мертвы"));
+        });
     }
 
     @Test

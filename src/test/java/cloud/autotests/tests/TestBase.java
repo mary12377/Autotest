@@ -1,5 +1,6 @@
 package cloud.autotests.tests;
 
+import cloud.autotests.config.Project;
 import cloud.autotests.config.ProjectConfig;
 import cloud.autotests.helpers.Attach;
 import cloud.autotests.helpers.DriverSettings;
@@ -18,12 +19,16 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 @ExtendWith({AllureJunit5.class})
 public class TestBase {
+    static String login,
+            password;
     static ProjectConfig config = ConfigFactory.create(ProjectConfig.class);
 
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
         DriverSettings.configure();
+        login = Project.config.userLogin();
+        password = Project.config.userPassword();
 
     }
 
