@@ -2,9 +2,7 @@ package cloud.autotests.tests.demowebshop;
 
 import cloud.autotests.config.demowebshop.App;
 import cloud.autotests.helpers.AllureRestAssuredFilter;
-import cloud.autotests.tests.TestBase;
 import com.codeborne.selenide.Configuration;
-import io.qameta.allure.Story;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.Cookie;
@@ -16,8 +14,9 @@ import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
 
-@Story("Login tests")
-public class LoginTests extends TestBase {
+
+public class LoginTest {
+
 
     static String login,
             password;
