@@ -12,7 +12,6 @@ import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 import  static cloud.autotests.helpers.Autorisation.auth;
 
-
 public class DoramaLiveTests extends TestBase {
 
     @Test
@@ -36,7 +35,7 @@ public class DoramaLiveTests extends TestBase {
             $$(".root-item").findBy(text("помочь сайту")).click();
             $(".fa.fa-child").click();
         });
-        step("проверяем что в меню есть названия", () -> {
+        step("проверяем что в меню есть названия клавиш", () -> {
             $(".navbar-collapse.collapse").shouldHave(text("форум"), text("справка"), text("помочь сайту"));
         });
     }
