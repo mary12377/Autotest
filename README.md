@@ -68,9 +68,9 @@ test
 </p>
 
 ## :robot: Отчет в Telegram
-<p align="center">
-<img title="TELEGRAM-BOT" src="images/TELEGRAM-BOT.png">
-</p>
+
+![TELEGRAMBOT](images/TELEGRAMBOT.png)
+
 
 ## :film_projector: Видео примеры прохождения тестов
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
