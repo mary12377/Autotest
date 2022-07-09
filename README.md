@@ -38,9 +38,9 @@
 
 
 ## :four_leaf_clover: Сборка в Jenkins
-### <a target="_blank" href="https://jenkins.autotests.cloud/job/taecher-iTerkin-qa_guru_12_13/">Сборка в Jenkins</a>
+### <a target="_blank" href="https://jenkins.autotests.cloud/job/qa.guru-hm13-Autotest/">Сборка в Jenkins</a>
 <p align="center">
-<img title="Jenkins Dashboard" src="images/screenshots/jenkins-dashboard.png">
+<img title="Jenkins Dashboard" src="images/JENKINSSBOR.png">
 </p>  
 
 ## :four_leaf_clover: Запуск из терминала
@@ -53,19 +53,22 @@ gradle clean test
 ```
 clean
 test
--Dremote=${REMOTE}
 -Dbrowser=${BROWSER}
+-DbrowserSize=${BROWSER_SIZE} 
+-DbrowserVersion=${BROWSER_VERSION}
+-DbaseUrl=${BASE_URL}
+-DremoteDriverUrl=${REMOTE}
 ```
 
 ## :four_leaf_clover: Allure отчет
 - ### Главный экран отчета
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screenshots/allure-main-page.png">
+<img title="Allure Overview Dashboard" src="images/ALLUREREPORT.png">
 </p>
 
 - ### Страница с проведенными тестами
 <p align="center">
-<img title="Allure Test Page" src="images/screenshots/allure-test-page.png">
+<img title="Allure Test Page" src="images/ALLURREPOR.png">
 </p>
 
 ## :four_leaf_clover: Отчет в Telegram
@@ -78,7 +81,7 @@ test
 ## :four_leaf_clover: Видео примеры прохождения тестов
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/test-run.gif">
+  <img title="Selenoid Video" src="images/TEST.mp4">
 
 :arrow_up: [Вверх страницы](#anchor)
 
