@@ -25,10 +25,11 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAll() {
+        Configuration.baseUrl = "https://doramalive.ru/";
         Configuration.browserSize = "1920x1080";
         DriverSettings.configure();
-        login = Project.config.userLogin();
-        password = Project.config.userPassword();
+        Configuration.remote = ("https://"+ config.userLogin() + ":" + config.userPassword() + "@" + System.getProperty("urlSelenoid"));
+
 
     }
 

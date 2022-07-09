@@ -6,12 +6,12 @@
     "reportLink": "${BUILD_URL}",
     "language": "en",
     "messenger": "telegram",
-    "allureFolder": "allure-report/",
+    "allureFolder": "build/allure-report/",
     "enableChart": true
   },
   "telegram": {
-    "token": "5422315483:AAFardUwAoogG4I11DI2TWMFuGKVVJhUews",
-    "chat": "-1001663795659",
+    "token": "5418569485:AAGvCoIEj5o5kAC76_ZJJnVTt08TaBr0STk",
+    "chat": "-1001641999029",
     "replyTo": ""
   }
 }
