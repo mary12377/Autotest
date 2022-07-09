@@ -2,7 +2,7 @@
 ## <a target="_blank" href="https://doramalive.ru/">Сайт DoramaLive</a>
 ![Dorama](images/Dorama.png)
 
-## :floppy_disk: Содержание:
+## :four_leaf_clover: Содержание:
 
 - <a href="#computer-технологии-и-инструменты">Технологии и инструменты</a>
 - <a href="#notebook_with_decorative_cover-реализованные-проверки">Реализованные проверки</a>
@@ -13,7 +13,7 @@
 - <a href="#film_projector-видео-примеры-прохождения-тестов">Видео примеры прохождения тестов</a>
 
 
-## :computer: Технологии и инструменты
+## :four_leaf_clover: Технологии и инструменты
 
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="images/Intelij_IDEA.png">
@@ -28,7 +28,7 @@
 <img width="6%" title="Telegram" src="images/Telegram.png">
 </p>
 
-## :notebook_with_decorative_cover: Реализованные проверки
+## :four_leaf_clover: Реализованные проверки
 - [x] появилось имя личного кабинета
 - [x] в меню есть названия клавиш
 - [x] название фильма совпадает с поиском
@@ -36,13 +36,13 @@
 - [x] журнал консоли страницы не должен содержать ошибок
 
 
-## :electric_plug: Сборка в Jenkins
+## :four_leaf_clover: Сборка в Jenkins
 ### <a target="_blank" href="https://jenkins.autotests.cloud/job/taecher-iTerkin-qa_guru_12_13/">Сборка в Jenkins</a>
 <p align="center">
 <img title="Jenkins Dashboard" src="images/screenshots/jenkins-dashboard.png">
 </p>  
 
-## :arrow_forward: Запуск из терминала
+## :four_leaf_clover: Запуск из терминала
 Локальный запуск:
 ```
 gradle clean test
@@ -56,7 +56,7 @@ test
 -Dbrowser=${BROWSER}
 ```
 
-## :open_book: Allure отчет
+## :four_leaf_clover: Allure отчет
 - ### Главный экран отчета
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/screenshots/allure-main-page.png">
@@ -67,12 +67,14 @@ test
 <img title="Allure Test Page" src="images/screenshots/allure-test-page.png">
 </p>
 
-## :robot: Отчет в Telegram
+## :four_leaf_clover: Отчет в Telegram
+<p align="center">
+<img title="TELEGRAMBOT" src="images/TELEGRAMBOT.png">
+</p>
 
-![TELEGRAMBOT](images/TELEGRAMBOT.png)
 
 
-## :film_projector: Видео примеры прохождения тестов
+## :four_leaf_clover: Видео примеры прохождения тестов
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
 <p align="center">
   <img title="Selenoid Video" src="images/gif/test-run.gif">
