@@ -5,13 +5,13 @@
 
 ## :four_leaf_clover: Содержание:
 
-- <a href="#computer-технологии-и-инструменты">Технологии и инструменты</a>
-- <a href="#notebook_with_decorative_cover-реализованные-проверки">Реализованные проверки</a>
-- <a href="#electric_plug-сборка-в-Jenkins">Сборка в Jenkins</a>
-- <a href="#arrow_forward-запуск-из-терминала">Запуск из терминала</a>
-- <a href="#open_book-allure-отчет">Allure отчет</a>
-- <a href="#robot-отчет-в-telegram">Отчет в Telegram</a>
-- <a href="#film_projector-видео-примеры-прохождения-тестов">Видео примеры прохождения тестов</a>
+- <a href="#four_leaf_clover-технологии-и-инструменты">Технологии и инструменты</a>
+- <a href="#four_leaf_clover-реализованные-проверки">Реализованные проверки</a>
+- <a href="#four_leaf_clover-сборка-в-Jenkins">Сборка в Jenkins</a>
+- <a href="#four_leaf_clover-запуск-из-терминала">Запуск из терминала</a>
+- <a href="#four_leaf_clover-allure-отчет">Allure отчет</a>
+- <a href="#four_leaf_clover-отчет-в-telegram">Отчет в Telegram</a>
+- <a href="#four_leaf_clover-видео-примеры-прохождения-тестов">Видео примеры прохождения тестов</a>
 
 
 ## :four_leaf_clover: Технологии и инструменты
