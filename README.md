@@ -1,4 +1,4 @@
-# Проект по автоматизации тестирования сайта с фильмами
+# :four_leaf_clover:Проект по автоматизации тестирования сайта с фильмами:four_leaf_clover:
 ## <a target="_blank" href="https://doramalive.ru/">Сайт DoramaLive</a>
 ![Dorama](images/Dorama.png)
 
